@@ -25,6 +25,13 @@ import kotlin.jvm.Throws
 })
 **/
 
+/*Parameterized-tests
+* The custom runner Parameterized implements parameterized tests. When running a parameterized test class, instances are created for the cross-product of the test methods and the test data elements.
+* https://github.com/junit-team/junit4/wiki/Parameterized-tests
+*
+*
+* */
+
 class LeadControllerTest {
 
     private var controller : LeadsController? = null
